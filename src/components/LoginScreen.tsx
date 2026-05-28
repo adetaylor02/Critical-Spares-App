@@ -85,10 +85,6 @@ export function LoginScreen() {
               <div className="relative flex justify-center text-xs"><span className="bg-card px-2 text-muted-foreground">or</span></div>
             </div>
 
-            <Button type="button" variant="outline" className="w-full" onClick={google} disabled={busy}>
-              Continue with Google
-            </Button>
-
             <TabsContent value="signup" className="text-xs text-muted-foreground">
               New accounts default to <strong>Viewer</strong>. An Admin can promote you from the Users page. The very first account becomes Admin automatically.
             </TabsContent>
