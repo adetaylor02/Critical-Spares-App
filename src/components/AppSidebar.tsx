@@ -120,7 +120,7 @@ export function AppSidebar() {
       </SidebarContent>
       <SidebarFooter>
         <div className="px-2 py-2 text-xs text-muted-foreground group-data-[collapsible=icon]:hidden">
-          v1.0 · Demo data
+          v1.0 · CHI Metro
         </div>
       </SidebarFooter>
     </Sidebar>
